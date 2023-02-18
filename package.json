@@ -1,0 +1,30 @@
+{
+  "name": "@the-stations-project/station-management",
+  "version": "0.0.0-beta",
+  "description": "Allows managing the station",
+  "main": "management.js",
+  "bin": {
+    "management": "management.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b035/station-management.git"
+  },
+  "keywords": [
+    "station",
+    "stations",
+    "project"
+  ],
+  "author": "b035",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b035/station-management/issues"
+  },
+  "homepage": "https://github.com/b035/station-management#readme",
+  "dependencies": {
+    "@the-stations-project/sdk": "^0.2.1-beta"
+  }
+}
