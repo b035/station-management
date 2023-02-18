@@ -2,6 +2,7 @@
 
 import * as SDK from "@the-stations-project/sdk";
 
+/* MAIN */
 async function main(subcommand: string, args: string[]) {
 	switch (subcommand) {
 		case "registry": return (await registry(args));
@@ -9,6 +10,7 @@ async function main(subcommand: string, args: string[]) {
 	}
 }
 
+/* SUB-FUNCTIONS */
 async function registry(args: string[]) {
 	const [subcommand, path, content] = args;
 
