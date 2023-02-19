@@ -1,6 +1,6 @@
 {
   "name": "@the-stations-project/station-management",
-  "version": "0.0.1-beta",
+  "version": "0.0.1-beta1",
   "description": "Allows managing the station",
   "main": "management.js",
   "bin": {
